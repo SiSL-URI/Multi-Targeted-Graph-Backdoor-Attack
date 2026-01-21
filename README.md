@@ -3,10 +3,15 @@ This repository implements a multi-target backdoor attack on Graph Neural Networ
 
 ## Project Structure
 ├── main.py                 # Backdoor attack training pipeline
+
 ├── clean_model_train.py    # Clean model training (baseline)
-├── model.py                # GCN architecture (GCNLayer, GCNNet)
+
+├── model.py                # GNN model architecture
+
 ├── train_utils.py          # Training and evaluation functions
+
 ├── trigger_injection.py    # Trigger generation and injection module
+
 └── README.md
 
 
