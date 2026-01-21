@@ -1,7 +1,7 @@
 # Multi-Targeted-Graph-Backdoor-Attack
 This repository implements a multi-target backdoor attack on Graph Neural Network for graph classification tasks
 
-# Project Structure
+## Project Structure
 ├── main.py                 # Backdoor attack training pipeline
 ├── clean_model_train.py    # Clean model training (baseline)
 ├── model.py                # GCN architecture (GCNLayer, GCNNet)
@@ -10,7 +10,7 @@ This repository implements a multi-target backdoor attack on Graph Neural Networ
 └── README.md
 
 
-# Requirements
+## Requirements
 PyTorch 
 PyTorch Geometric
 NetworkX
@@ -18,7 +18,7 @@ NumPy
 Matplotlib
 scikit-learn
 
-# Instruction for running the codes:
+## Instruction for running the codes:
 
 1. Download all of the pyton files in one directory or clone the github repository. You can change the dataset from CIFAR10 Superpixel to other used in the paper mentioned above.
 
